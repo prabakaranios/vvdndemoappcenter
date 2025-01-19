@@ -14,6 +14,9 @@
 		3D1B44372D3CE4BE003E75F0 /* vvdndemoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B44362D3CE4BE003E75F0 /* vvdndemoappTests.swift */; };
 		3D1B44412D3CE4BE003E75F0 /* vvdndemoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B44402D3CE4BE003E75F0 /* vvdndemoappUITests.swift */; };
 		3D1B44432D3CE4BE003E75F0 /* vvdndemoappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1B44422D3CE4BE003E75F0 /* vvdndemoappUITestsLaunchTests.swift */; };
+		416498860EAFFA3DBA5850E2 /* Pods_vvdndemoapp_vvdndemoappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E1A6EA7130C0906AFCA217 /* Pods_vvdndemoapp_vvdndemoappUITests.framework */; };
+		A0B1BA6A08738E9C27FD3934 /* Pods_vvdndemoappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26019A3F46A8903EF34E0A0B /* Pods_vvdndemoappTests.framework */; };
+		CEFF136E5828450E21FFA4A7 /* Pods_vvdndemoapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108487E425210BC79DC7FC24 /* Pods_vvdndemoapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		108487E425210BC79DC7FC24 /* Pods_vvdndemoapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvdndemoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DEA8CDC96083E93C54AD8F /* Pods-vvdndemoappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoappTests.debug.xcconfig"; path = "Target Support Files/Pods-vvdndemoappTests/Pods-vvdndemoappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		26019A3F46A8903EF34E0A0B /* Pods_vvdndemoappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvdndemoappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E1A6EA7130C0906AFCA217 /* Pods_vvdndemoapp_vvdndemoappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vvdndemoapp_vvdndemoappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1B44222D3CE4BD003E75F0 /* vvdndemoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vvdndemoapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1B44252D3CE4BD003E75F0 /* vvdndemoappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vvdndemoappApp.swift; sourceTree = "<group>"; };
 		3D1B44272D3CE4BD003E75F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		3D1B443C2D3CE4BE003E75F0 /* vvdndemoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vvdndemoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1B44402D3CE4BE003E75F0 /* vvdndemoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vvdndemoappUITests.swift; sourceTree = "<group>"; };
 		3D1B44422D3CE4BE003E75F0 /* vvdndemoappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vvdndemoappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6EBDBC4B312C1E89E4F6006F /* Pods-vvdndemoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoapp.debug.xcconfig"; path = "Target Support Files/Pods-vvdndemoapp/Pods-vvdndemoapp.debug.xcconfig"; sourceTree = "<group>"; };
+		8F0703CBE92FB659FB3691A1 /* Pods-vvdndemoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoapp.release.xcconfig"; path = "Target Support Files/Pods-vvdndemoapp/Pods-vvdndemoapp.release.xcconfig"; sourceTree = "<group>"; };
+		B24A739C5B151427A0F56634 /* Pods-vvdndemoapp-vvdndemoappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoapp-vvdndemoappUITests.release.xcconfig"; path = "Target Support Files/Pods-vvdndemoapp-vvdndemoappUITests/Pods-vvdndemoapp-vvdndemoappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3A71CE5BB8CE92CDDC08A8B /* Pods-vvdndemoappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoappTests.release.xcconfig"; path = "Target Support Files/Pods-vvdndemoappTests/Pods-vvdndemoappTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9F70D781066B3B40988B9A5 /* Pods-vvdndemoapp-vvdndemoappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vvdndemoapp-vvdndemoappUITests.debug.xcconfig"; path = "Target Support Files/Pods-vvdndemoapp-vvdndemoappUITests/Pods-vvdndemoapp-vvdndemoappUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFF136E5828450E21FFA4A7 /* Pods_vvdndemoapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B1BA6A08738E9C27FD3934 /* Pods_vvdndemoappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416498860EAFFA3DBA5850E2 /* Pods_vvdndemoapp_vvdndemoappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35637826B13519241EDA08A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108487E425210BC79DC7FC24 /* Pods_vvdndemoapp.framework */,
+				39E1A6EA7130C0906AFCA217 /* Pods_vvdndemoapp_vvdndemoappUITests.framework */,
+				26019A3F46A8903EF34E0A0B /* Pods_vvdndemoappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3D1B44192D3CE4BD003E75F0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +103,8 @@
 				3D1B44352D3CE4BE003E75F0 /* vvdndemoappTests */,
 				3D1B443F2D3CE4BE003E75F0 /* vvdndemoappUITests */,
 				3D1B44232D3CE4BD003E75F0 /* Products */,
+				6862E02AD869BEB36E22A1DD /* Pods */,
+				35637826B13519241EDA08A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +154,20 @@
 			path = vvdndemoappUITests;
 			sourceTree = "<group>";
 		};
+		6862E02AD869BEB36E22A1DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EBDBC4B312C1E89E4F6006F /* Pods-vvdndemoapp.debug.xcconfig */,
+				8F0703CBE92FB659FB3691A1 /* Pods-vvdndemoapp.release.xcconfig */,
+				F9F70D781066B3B40988B9A5 /* Pods-vvdndemoapp-vvdndemoappUITests.debug.xcconfig */,
+				B24A739C5B151427A0F56634 /* Pods-vvdndemoapp-vvdndemoappUITests.release.xcconfig */,
+				23DEA8CDC96083E93C54AD8F /* Pods-vvdndemoappTests.debug.xcconfig */,
+				E3A71CE5BB8CE92CDDC08A8B /* Pods-vvdndemoappTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1B44462D3CE4BE003E75F0 /* Build configuration list for PBXNativeTarget "vvdndemoapp" */;
 			buildPhases = (
+				242C6A649D5A82CB29BDB3AF /* [CP] Check Pods Manifest.lock */,
 				3D1B441E2D3CE4BD003E75F0 /* Sources */,
 				3D1B441F2D3CE4BD003E75F0 /* Frameworks */,
 				3D1B44202D3CE4BD003E75F0 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1B44492D3CE4BE003E75F0 /* Build configuration list for PBXNativeTarget "vvdndemoappTests" */;
 			buildPhases = (
+				7F95EA6810B4C74EB6185661 /* [CP] Check Pods Manifest.lock */,
 				3D1B442E2D3CE4BE003E75F0 /* Sources */,
 				3D1B442F2D3CE4BE003E75F0 /* Frameworks */,
 				3D1B44302D3CE4BE003E75F0 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D1B444C2D3CE4BE003E75F0 /* Build configuration list for PBXNativeTarget "vvdndemoappUITests" */;
 			buildPhases = (
+				F25B17F06EE6F49360BD2E33 /* [CP] Check Pods Manifest.lock */,
 				3D1B44382D3CE4BE003E75F0 /* Sources */,
 				3D1B44392D3CE4BE003E75F0 /* Frameworks */,
 				3D1B443A2D3CE4BE003E75F0 /* Resources */,
@@ -251,6 +295,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		242C6A649D5A82CB29BDB3AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vvdndemoapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F95EA6810B4C74EB6185661 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vvdndemoappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25B17F06EE6F49360BD2E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vvdndemoapp-vvdndemoappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D1B441E2D3CE4BD003E75F0 /* Sources */ = {
@@ -416,6 +529,7 @@
 		};
 		3D1B44472D3CE4BE003E75F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBDBC4B312C1E89E4F6006F /* Pods-vvdndemoapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +559,7 @@
 		};
 		3D1B44482D3CE4BE003E75F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0703CBE92FB659FB3691A1 /* Pods-vvdndemoapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +589,7 @@
 		};
 		3D1B444A2D3CE4BE003E75F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DEA8CDC96083E93C54AD8F /* Pods-vvdndemoappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +610,7 @@
 		};
 		3D1B444B2D3CE4BE003E75F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A71CE5BB8CE92CDDC08A8B /* Pods-vvdndemoappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +631,7 @@
 		};
 		3D1B444D2D3CE4BE003E75F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F70D781066B3B40988B9A5 /* Pods-vvdndemoapp-vvdndemoappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +650,7 @@
 		};
 		3D1B444E2D3CE4BE003E75F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24A739C5B151427A0F56634 /* Pods-vvdndemoapp-vvdndemoappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
